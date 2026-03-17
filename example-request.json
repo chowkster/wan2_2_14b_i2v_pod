@@ -1,0 +1,40 @@
+{
+  "input": {
+    "workflow": {
+      "97": {
+        "inputs": {
+          "image": "puppies.png"
+        },
+        "class_type": "LoadImage",
+        "_meta": {
+          "title": "LoadImage"
+        }
+      },
+      "108": {
+        "inputs": {
+          "filename": "video/Wan2.2_i2v",
+          "video": [
+            "129",
+            0
+          ]
+        },
+        "class_type": "SaveVideo",
+        "_meta": {
+          "title": "SaveVideo"
+        }
+      },
+      "129": {
+        "inputs": {
+          "start_image": [
+            "97",
+            0
+          ]
+        },
+        "class_type": "84e2cf3f-de93-40ef-ab22-b9375296917b",
+        "_meta": {
+          "title": "84e2cf3f-de93-40ef-ab22-b9375296917b"
+        }
+      }
+    }
+  }
+}
